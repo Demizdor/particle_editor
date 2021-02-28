@@ -1,0 +1,19 @@
+#
+# Demizdor's Particle System file (v1.03 - ALPHA)
+#
+# Emitter properties:
+#	n name_of_particle_system
+#
+#	g ID gradient_count g0 g1 ... gn
+#	f ID forces_count f0_direction f0_strength .. fn_direction fn_strength
+#	a ID hframes vframes loop texture
+#	c ID emission pulses size_min size_max angle_min angle_max offset_min offset_max age_min age_max speed_min speed_max scale_start scale_end acc_start acc_end tacc_start tacc_end rot_start rot_end
+#	e ID pos_x pos_y max_particles life delay easing flags type opt1 opt2
+#
+
+n snowing
+
+g  00 03 97C5FF81 81ABFFFF 7FC1FF00
+a  00 0 0 1 snow.png
+c  00 0999  0 0.000 0.100 90.0 90.0 0 0 6.0000 8.0000 60.00 80.00 1.0000 1.3000 87 20 10 -65 0.0 173.9
+e  00 320 -6 2000 4.0000 0.00 0008 268 01  779   22

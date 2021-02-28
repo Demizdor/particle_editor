@@ -1,0 +1,21 @@
+#
+# Demizdor's Particle System file (v1.03 - ALPHA)
+#
+# Emitter properties:
+#	n name_of_particle_system
+#
+#	g ID gradient_count g0 g1 ... gn
+#	f ID forces_count f0_direction f0_strength .. fn_direction fn_strength
+#	a ID hframes vframes loop texture
+#	c ID emission pulses size_min size_max angle_min angle_max offset_min offset_max age_min age_max speed_min speed_max scale_start scale_end acc_start acc_end tacc_start tacc_end rot_start rot_end
+#	e ID pos_x pos_y max_particles life delay easing flags type opt1 opt2
+#
+
+n animated_textures_test
+
+
+g  00 05 D5000000 D50000FF E7DF5DFF 1115FFFF 2D31FF00
+f  00 01 -60.63 -189.47
+a  00   8   8   1 cloud_1.png
+c  00 0211  0 0.300 1.000 200.0 360.0 10 -10 1.0000 2.0000 40.00 60.00 1.0000 1.7000 141 -283 0 -293 97.8 0.0
+e  00 -12 47 2000 4.0000 0.00 00 0000 256 00    0    0

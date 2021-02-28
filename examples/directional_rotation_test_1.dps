@@ -1,0 +1,20 @@
+#
+# Demizdor's Particle System file (v1.03 - ALPHA)
+#
+# Emitter properties:
+#	n name_of_particle_system
+#
+#	g ID gradient_count g0 g1 ... gn
+#	f ID forces_count f0_direction f0_strength .. fn_direction fn_strength
+#	a ID hframes vframes loop texture
+#	c ID emission pulses size_min size_max angle_min angle_max offset_min offset_max age_min age_max speed_min speed_max scale_start scale_end acc_start acc_end tacc_start tacc_end rot_start rot_end
+#	e ID pos_x pos_y max_particles life delay easing flags type opt1 opt2
+#
+
+n directional_rotation_test
+
+
+g  00 05 88B8E200 F37BA1FF 6B6DE7FF C37FE9FF 63AFC600
+a  00   0   0   1 arrow.png
+c  00 1000  0 0.800 1.000 0.0 360.0 4 -4 3.0000 4.0000 40.00 80.00 0.1000 0.2000 67 0 33 207 180.0 180.0
+e  00 340 280 2000 4.0000 0.00 0000 384 01   20   80

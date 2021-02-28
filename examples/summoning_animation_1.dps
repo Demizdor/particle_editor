@@ -1,0 +1,45 @@
+#
+# Demizdor's Particle System file (v1.03 - ALPHA)
+#
+# Emitter properties:
+#	n name_of_particle_system
+#	p placeholder_texture
+#
+#	g ID gradient_count g0 g1 ... gn
+#	f ID forces_count f0_direction f0_strength .. fn_direction fn_strength
+#	a ID hframes vframes loop texture
+#	c ID emission pulses size_min size_max angle_min angle_max offset_min offset_max age_min age_max speed_min speed_max scale_start scale_end acc_start acc_end tacc_start tacc_end rot_start rot_end
+#	e ID pos_x pos_y max_particles life delay blend_mode easing flags type opt1 opt2
+#
+
+n summoning_animation
+
+
+g  00 02 08822BE6 E2D88800
+a  00   0   0   1 summoning_animation_00.png
+c  00 0001  1 1.000 1.000 0.0 360.0 0 0 0.5000 1.0000 0.00 0.00 0.0000 1.0000 0 0 0 0 0.0 191.6
+e  00 355 270 2000 0.5000 2.00 00 0013 256 00    0    0
+
+
+g  01 01 A5E288FF
+a  01   0   0   1 summoning_animation_01.png
+c  01 0050  1 1.000 1.000 0.0 360.0 10 -10 0.5000 1.0000 40.00 50.00 0.5000 0.0000 112 0 28 140 32.7 88.8
+e  01 355 270 2000 0.5000 2.00 00 0013 384 00    0    0
+
+
+g  02 03 88E2BE00 88E2BE63 88E2BE00
+a  02   0   0   1 summoning_animation_02.png
+c  02 0020  1 1.000 1.000 0.0 360.0 0 0 0.5000 1.0000 40.00 50.00 0.5000 0.5000 0 0 0 0 0.0 0.0
+e  02 355 270 2000 0.5000 2.00 01 0013 384 00    0    0
+
+
+g  03 02 5BD489FF 00000000
+a  03   0   0   1 summoning_animation_03.png
+c  03 0020  1 1.000 1.000 0.0 360.0 0 0 0.5000 1.0000 40.00 50.00 0.1000 0.0000 458 0 0 206 180.0 0.0
+e  03 355 270 2000 0.5000 2.00 00 0000 384 00    0    0
+
+
+g  04 03 08822BE6 E2D88800 6EC66300
+a  04   0   0   1 summoning_animation_04.png
+c  04 0001  1 1.000 1.000 0.0 360.0 0 0 0.5000 1.0000 0.00 0.00 0.0000 0.4206 0 0 0 0 172.9 186.9
+e  04 355 270 2000 0.5000 2.00 03 0005 256 00    0    0

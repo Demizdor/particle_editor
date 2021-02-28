@@ -1,0 +1,26 @@
+#
+# Demizdor's Particle System file (v1.03 - ALPHA)
+#
+# Emitter properties:
+#	n name_of_particle_system
+#   p placeholder_texture
+#
+#	g ID gradient_count g0 g1 ... gn
+#	f ID forces_count f0_direction f0_strength .. fn_direction fn_strength
+#	a ID hframes vframes loop texture
+#	c ID emission pulses size_min size_max angle_min angle_max offset_min offset_max age_min age_max speed_min speed_max scale_start scale_end acc_start acc_end tacc_start tacc_end rot_start rot_end
+#	e ID pos_x pos_y max_particles life delay easing flags type opt1 opt2
+#
+
+n portal
+
+
+g  00 05 71869FFF CC342F6E 71869FC7 71869FFF 71869F00
+c  00 0100  0 1.000 2.000 0.0 360.0 0 0 2.0000 3.0000 80.00 90.00 0.0000 3.5514 8 -65 0 206 140.2 327.1
+e  00 343 247 2000 2.0000 0.00 0000 320 00    0    0
+
+
+g  01 04 A06E6C76 419698FF 9B658383 1C89987C
+a  01   5   3   1 portal_01.png
+c  01 0020  0 1.100 1.500 270.0 290.0 10 -10 3.0000 4.9000 80.00 100.00 0.4000 0.6000 -252 -47 -411 112 42.1 350.5
+e  01 332 239 2000 3.8000 0.00 0017 460 00   20  134

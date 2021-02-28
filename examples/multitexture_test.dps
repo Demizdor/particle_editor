@@ -1,0 +1,21 @@
+#
+# Demizdor's Particle System file (v1.03 - ALPHA)
+#
+# Emitter properties:
+#	n name_of_particle_system
+#	p placeholder_texture
+#
+#	g ID gradient_count g0 g1 ... gn
+#	f ID forces_count f0_direction f0_strength .. fn_direction fn_strength
+#	a ID hframes vframes loop texture
+#	c ID emission pulses size_min size_max angle_min angle_max offset_min offset_max age_min age_max speed_min speed_max scale_start scale_end acc_start acc_end tacc_start tacc_end rot_start rot_end
+#	e ID pos_x pos_y max_particles life delay blend_mode easing flags type opt1 opt2
+#
+
+n multitexture_test
+
+
+g  00 03 C34EF6FF 7C5BE4FF 0F0B5C00
+a  00   2   2   1 multitexture_test_00.png
+c  00 0030 30 1.000 1.000 0.0 360.0 100 -100 4.0000 5.0000 20.00 40.00 1.0000 0.0000 0 -93 121 0 0.0 60.7
+e  00 355 270 2000 5.0000 0.00 00 0008 772 02  191  115
