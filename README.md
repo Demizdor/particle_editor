@@ -1,3 +1,6 @@
+
+<img src="https://github.com/Demizdor/particle_editor/blob/main/screenshot/screenshot000.png" />
+
 # Particle Editor
 
 A experimental particle editor + header only particle library (particles.h) in early stages of development (ALPHA version).
